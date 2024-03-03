@@ -53,7 +53,7 @@ if not is_valid_temperature(from_unit_input):
     print("Not a valid input, valid value is Celsius, Fahrenheit, Kelvin")
     exit(1)
 
-to_unit_input = input("Ubah dari (valid value : Celsius, Fahrenheit, Kelvin) : ")
+to_unit_input = input("Ubah ke (valid value : Celsius, Fahrenheit, Kelvin) : ")
 if not is_valid_temperature(to_unit_input):
     print("Not a valid input, valid value is Celsius, Fahrenheit, Kelvin")
     exit(1)
